@@ -1,0 +1,19 @@
+{
+    "name": "joselopez/php-database",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joselopez"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "App\\":"app/",
+            "Database\\":"database/",
+            "Router\\":"router"
+            
+        }
+    },
+    "require": {}
+}
